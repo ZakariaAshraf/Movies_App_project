@@ -25,7 +25,7 @@ class MovieApp extends StatelessWidget {
         HomeLayout.routName: (context) => const HomeLayout(),
         SearchView.routname: (context) => const SearchView(),
         HomeView.routName: (context) => const HomeView(),
-        BrowserView.routName: (context) => const BrowserView(),
+        BrowserView.routName: (context) =>  BrowserView(),
         WatchListView.routName : (context) => const WatchListView(),
       },
     );
